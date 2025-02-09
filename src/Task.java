@@ -15,12 +15,11 @@ public class Task {
 
 
     public String toString() {
-        return String.format(
-                "Task: %s\nDescription: %s\nStatus: %s\n",
-                name,
-                description,
-                isCompleted ? "Completed" : "Not Completed"
-        );
+        return "----------------------------------------\n" +
+                "Name        : " + this.name + "\n" +
+                "Description : " + this.description + "\n" +
+                "Status      : " + (this.isCompleted ? "Completed" : "Not Completed") + "\n";
+
     }
 
     public void markAsCompleted() {

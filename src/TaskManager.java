@@ -62,11 +62,7 @@ public class TaskManager {
             Task task = tasks.get(i);
             System.out.println(
                     "========================================\n" +
-                            "Task #" + (i + 1) + "\n" +
-                            "----------------------------------------\n" +
-                            "Name        : " + task.name + "\n" +
-                            "Description : " + task.description + "\n" +
-                            "Status      : " + (task.isCompleted ? "Completed" : "Not Completed") + "\n" +
+                            "Task #" + (i + 1) + "\n" + task.toString() +
                             "========================================\n"
             );
         }

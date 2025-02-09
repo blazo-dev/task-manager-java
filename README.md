@@ -1,5 +1,3 @@
-Sure! Here's a simple README.md for your To-Do Application project:
-
 # To-Do Application (Java)
 
 ## Overview
